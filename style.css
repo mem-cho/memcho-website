@@ -9,8 +9,10 @@ body {
     background-color: rgb(20, 20, 20);
 }
 
+/*---------------------------------------------------*/
+
 /* (• ⩊ •) */
-#memlogo {
+.mem-logo {
     color: rgb(255, 238, 0);
     text-align:left;
     
@@ -53,7 +55,7 @@ body {
 
 }
 
-
+/*Menu Bar Selectable Pages*/
 .webpages {
 
     /*Text Color*/
@@ -66,4 +68,37 @@ body {
     /*Removes Line under text*/
     text-decoration: none;
     
+    
+}
+
+/*Homepage Image*/
+.homepage-image {
+    height: auto;
+    width: 1000px;
+
+    /*Homepage Image Margins*/
+    margin-top: 40px;
+}
+
+.mem-logo,
+.menubar,
+.homepage-image,
+.hoshino-times-title {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*---------------------------------------------------*/
+
+.hoshino-times-title {
+    color: rgb(255, 238, 0);
+}
+
+.list-issues {
+    color: rgb(255, 238, 0);
+    font-size: 20px;
+}
+
+.issue-number {
+    margin-bottom: 20px;
 }
