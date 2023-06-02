@@ -11,6 +11,19 @@ body {
 
 /*---------------------------------------------------*/
 
+.yellow-text {
+    color: rgb(255, 238, 0);
+}
+
+.webpage-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.monospace-font {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
 /* (• ⩊ •) */
 .mem-logo {
     color: rgb(255, 238, 0);
@@ -74,18 +87,10 @@ body {
 /*Homepage Image*/
 .homepage-image {
     height: auto;
-    width: 1000px;
+    width: 800px;
 
     /*Homepage Image Margins*/
     margin-top: 40px;
-}
-
-.mem-logo,
-.menubar,
-.homepage-image,
-.hoshino-times-title {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 /*---------------------------------------------------*/
@@ -99,6 +104,16 @@ body {
     font-size: 20px;
 }
 
-.issue-number {
+.list-item {
+    color: rgb(255, 238, 0);
     margin-bottom: 20px;
+}
+
+.hoshino-times-image {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    height: auto;
+    width: 800px;
 }
