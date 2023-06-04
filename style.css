@@ -24,6 +24,20 @@ body {
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
+
+/*Makes text and image be on the same line*/
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Centers the Pixel Kana*/
+.pixel-kana {
+    margin: 10px;
+}
+
+/*---------------------------------------------------*/
+
 /* (• ⩊ •) */
 .mem-logo {
     color: rgb(255, 238, 0);
@@ -95,17 +109,11 @@ body {
 
 /*---------------------------------------------------*/
 
-.hoshino-times-title {
-    color: rgb(255, 238, 0);
-}
-
 .list-issues {
-    color: rgb(255, 238, 0);
     font-size: 20px;
 }
 
 .list-item {
-    color: rgb(255, 238, 0);
     margin-bottom: 20px;
 }
 
@@ -117,3 +125,6 @@ body {
     height: auto;
     width: 800px;
 }
+
+/*---------------------------------------------------*/
+
